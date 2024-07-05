@@ -61,7 +61,7 @@ def interpreter(text, extendedBF = false, debug = false)
             end
             idx += 1
         when "<"
-            if ptr - 1 > -1
+            if ptr - 1 > -1 then
                 ptr -= 1
             elsif ptr - 1 == -1 then
                 ptr = 29999
